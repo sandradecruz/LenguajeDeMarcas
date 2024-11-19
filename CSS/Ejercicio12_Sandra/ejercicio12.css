@@ -1,0 +1,51 @@
+.div1{
+    color: red;
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    text-decoration: underline;
+    text-align: center;
+    font-weight: bold;
+    border: black solid 4px;
+}
+
+#ultimo{
+    left: 5px;
+}
+
+#primero{
+    right: 5px;
+}
+
+.div1:hover{
+    background-color: black;
+    border: gray solid 4px;
+}
+
+.div2{
+    border: dashed black 10px;
+    width: 40%;
+    height: 600px;
+    margin: auto;
+    color: red;
+    text-align: center;
+    font-size: 60px;
+    color: magenta;
+}
+
+.div3{
+    border-left: dashed black 10px;
+    border-right: dashed black 10px;
+    border-bottom: dashed black 10px;
+    width: 40%;
+    height: 600px;
+    margin: auto;
+    text-align: center;
+    font-size: 60px;
+    color: magenta;
+    background-color: rgb(194, 190, 190);
+}
+
+.enlace{
+    color: red;
+}

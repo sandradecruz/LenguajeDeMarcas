@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3</title>
+   
+</head>
+<body>
+
+    <h1>Formulario</h1>
+    <fieldset>
+        <legend>Datos</legend>
+    <form method="POST">
+        
+            
+            
+                <p>Selecciona una opción:
+                    <select id="opcion" name="opcion" required>
+                        <option value="">-Seleccione-</option>
+                        <option value="opcion1">Opción 1</option>
+                        <option value="opcion2">Opción 2</option>
+                        <option value="opcion3">Opción 3</option>
+                    </select>
+                </p>
+
+          
+                <p>Comentarios:</p>
+                <textarea id="comentarios" name="comentarios" cols="50" rows="20"></textarea>
+          
+                <br>
+         
+                <p>Elige una opción:</p>
+                <p><input type="radio" id="opcionA" name="eleccion" value="opcionA">
+                Opcion A</p>
+                <p><input type="radio" id="opcionB" name="eleccion" value="opcionB">
+                Opcion B</p>
+                <p><input type="radio" id="opcionC" name="eleccion" value="opcionC" checked>
+                Opcion C</p>
+
+                <br>
+            <p><button type="submit">Enviar</button></p>
+            <p><button type="reset">Borrar</button></p>
+
+    </form>
+</fieldset>
+</body>
+</html>

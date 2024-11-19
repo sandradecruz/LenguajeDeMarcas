@@ -1,0 +1,7 @@
+p:first-of-type{ /*creador de columnas*/
+    column-count: 2;
+
+}
+p{
+    text-align: justify;
+}

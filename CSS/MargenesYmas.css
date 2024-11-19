@@ -1,0 +1,58 @@
+#parrafo1{
+    border: dotted 3px blue;
+    background-color: rgb(245, 190, 190);
+    padding: 20px 200px 30px;
+    text-align: justify;
+    margin: 25px;
+    margin-bottom: 60px;
+}
+
+p:last-of-type{
+    border: solid 3px black;
+}
+
+#nombre{
+    
+    width: 50%;
+    /*No funciona el margin por que el p ocupa todo el ancho de la pagina y por lo tanto, ya estría centrado*/
+    margin: auto; /*Permite centrar componentes*/
+    text-align: center;
+
+}
+
+#imagen1{
+    margin-left: 25%;
+    width: 50%;
+    border: solid;
+}
+
+#imagen2{
+    display: block; /*Altera el componente y lo convierte en un bloque*/
+    margin: auto;
+}
+
+#imagen3{
+    display: block;
+    margin-left: calc(50%-400px);
+}
+
+
+li{
+    list-style-type:none;
+    display:inline-block;
+    margin: 3px;
+    padding: 2px;
+    text-align: center;
+    width:100px
+    
+}
+ul{
+   padding-left: 0px;
+   
+}
+
+li:hover{
+    background-color: black;
+    color: white;
+    
+}

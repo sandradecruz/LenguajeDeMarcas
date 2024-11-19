@@ -1,0 +1,17 @@
+
+
+
+
+a.link:link {
+    color: red;
+    text-decoration: none;
+}
+
+a.link:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+a.link:visited {
+    color: purple;
+}

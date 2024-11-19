@@ -1,0 +1,47 @@
+span{
+    color: yellow;
+}
+
+p{
+    background-color: #0b500750; /*El 50 del final son dos numeros que hemos añadido nosotros y son la opacidad en la que queremos que esté ese color*/
+}
+
+body{
+    background-color: purple;
+}
+
+/*Textos*/
+p:first-of-type{
+    letter-spacing: 5px; /*Separacion entre caracteres*/
+}
+
+p:hover{ /*Hover para cuando el raton esta encima de lo que hemos indicado*/
+    word-spacing: 20px; /*Espacio entre palabras*/
+}
+
+#parrafo2{
+    text-align: justify;
+}
+
+.miclase{
+    text-decoration:line-through underline ; /*Line trough solamente pone una linea entre medias del texto que hayamos indicado*/
+    text-transform: uppercase; /*Convierte todo a mayuscula*/
+}
+
+p{
+    text-indent: calc(10%+10px); /*Es posible hacer calculos a medidas*/
+    text-shadow: 2px 2px 5px brown; /*Tienes que añadir tres medidas para incluir una sombra debajo del texto*/
+}
+
+p:last-of-type{
+    line-height: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-variant: small-caps;
+}
+
+div>p{ /*Tambien valdria con espacio*/
+    color: blue;
+}

@@ -1,0 +1,23 @@
+table{
+    background-image:url("https://picsum.photos/id/33/70/70"); /*Insertamos imagen mediante una url de google*/
+    background-repeat:no-repeat; /*Solo se repite una vez la imagen*/
+    background-position: bottom right;
+    background-size: cover; /*Para que cubra todo el contenido*/
+}
+
+#ultimoparrafo{
+    background-color: blueviolet;
+    height: 100px;
+    line-height: 100px; /*Tienes que indicar tanto el heigh como el line heigh para que te lo centre correctamente*/
+    vertical-align: middle;
+    /*border-width: 3px;
+    border-color: black; /*Incluyes un borde al background del parrafo*/
+    /*border-style: dotted;*/
+    border: 10px double black; /*Puedes hacerlo todo con border sin necesidad de poner lo anterior*/
+}
+
+#ultimisimo{
+    background-color: aqua;
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%); /*Haces la formma que desees*/
+}
+/*Hacer el 7 para casa*/

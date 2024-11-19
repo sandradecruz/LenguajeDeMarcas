@@ -1,0 +1,54 @@
+p{
+
+    position:absolute;
+    border: double 3px black;
+    height: 70px;
+    color: red;
+    text-decoration: underline;
+}
+
+#ultimoFotograma{
+    margin-left: 375px ;
+}
+
+#ultimoFotograma:hover{
+    background-color: black;
+    
+}
+
+#primerFotograma{
+    background-color: black;  
+}
+
+#primerFotograma:hover{
+    background-color: white;
+    color: red;
+}
+
+tr{
+
+    position: relative;
+    text-align: center;
+    display: block;
+    margin-left: 143px;
+}
+
+td{
+
+    display: inline-table;
+    border: dashed 4px black;
+    width: 200px;
+    height: 200px;
+    color: rgb(204, 50, 114);
+    font-size: large;
+    font-weight: bold;
+}
+
+#par{
+
+    background-color: white;
+}
+
+#impar{
+    background-color: grey;
+}

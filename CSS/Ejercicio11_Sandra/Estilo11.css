@@ -1,0 +1,38 @@
+div {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Estilo de la imagen de fondo */
+#imagen1 {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Contenedor que centra escudo y el texto */
+.centrado {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    text-align: center;
+}
+
+/* Estilo de imagen2 (escudo) */
+#imagen2 {
+    width: 100px; /* Ajusta el tamaño de la imagen según tus necesidades */
+    height: auto;
+}
+
+/* Estilo del texto sobre escudo */
+.centrado > span {
+    display: block;
+    font-size: 1.5em;
+    color: white;
+    font-weight: bold;
+    margin-top: -20px; /* Ajusta para centrar el texto respecto a escudo */
+}

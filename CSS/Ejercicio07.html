@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Inscripción</title>
+    <link rel="stylesheet" href="07Estilo.css">
+</head>
+<body>
+   <h1>hoja de inscripción</h1>
+
+   <form action="">
+       <fieldset>
+            <legend>Datos personales</legend>
+            <table>
+                <tr>
+                    <td><span>A</span>pellidos:</td>
+                    <td>N<span>o</span>mbre:</td>
+                    <td><span>D</span>NI:</td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="apellidos"></td>
+                    <td><input type="text" name="nombre"></td>
+                    <td><input type="text" name="dni"></td>
+                </tr>
+                <tr>
+                    <td><span>N</span>acido en:</td>
+                    <td>Provincia:</td>
+                    <td><span>F</span>echa nacimiento (dd/mm/aaaa):</td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="nacido"></td>
+                    <td><select id="provincia" name="provincia">
+                            <option value="">-Seleccione-</option>
+                            <option value="valladolid">Valladolid</option>
+                            <option value="palencia">Palencia</option>
+                            <option value="burgos">Burgos</option>
+                            <option value="leon">León</option>
+                        </select></td>
+                    <td><input type="text" name="fechanacimiento"></td>
+                </tr>
+                <tr>
+                    <td colspan="2">Do<span>m</span>icilio:</td>
+                    <td><span>C</span>ódigo postal:</td>
+                </tr>
+                <tr>
+                    <td colspan="2"><select id="provincia" name="provincia"><option value="">-Seleccione-</option></select></select><input type="text" name="domicilio"></td>
+                    <td><input type="text" name="codigopostal"></td>
+                </tr>
+                <tr>
+                    <td><span>L</span>ocalidad:</td>
+                    <td>Provincia:</td>
+                    <td><span>T</span>eléfono:</td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="localidad"></td>
+                    <td><select id="provincia" name="provincia">
+                            <option value="">-Seleccione-</option>
+                            <option value="valladolid">Valladolid</option>
+                            <option value="palencia">Palencia</option>
+                            <option value="burgos">Burgos</option>
+                            <option value="leon">León</option>
+                        </select></td>
+                    <td><input type="text" name="telefono"></td>
+                </tr>
+            </table>
+            <div id="botones">
+                <button type="reset">Borrar todo</button>
+                <button type="submit">Enviar</button>
+            </div>
+       </fieldset>
+   </form>
+</body>
+</html>

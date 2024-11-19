@@ -1,0 +1,29 @@
+
+ol {
+    font-weight: bold;
+}
+
+
+#textoverde {
+    color: green;
+}
+
+
+.letra-grande {
+    font-size: 2em; 
+}
+
+
+h1, h2, h3 {
+    background-color: lightgray; 
+}
+
+
+p[color="blue"] {
+    color: yellow;
+}
+
+
+a:visited {
+    color: purple; 
+}
